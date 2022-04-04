@@ -1,3 +1,8 @@
 name: SuperLinter
 
 on: push
+
+jobs:
+  super-lint:
+    name: Lint code base
+    runs-on: windows-latest
