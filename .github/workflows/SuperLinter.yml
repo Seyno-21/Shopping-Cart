@@ -12,4 +12,5 @@ jobs:
         
       - name: Run SuperLinter
         uses: github/super-linter@v3
-        
+        env:
+          DEFAULT_BRANCH: main
